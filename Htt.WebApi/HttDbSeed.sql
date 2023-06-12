@@ -158,7 +158,6 @@ JOIN Categories ON ProductCategories.CategoryId = Categories.Id
 WHERE Products.Id = @ProductId
 END
 
-SELECT * FROM Products
 
 
 
